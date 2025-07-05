@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextilConnect</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="img/LOGO.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="product.html">PRODUCTOS</a></li>
+                    <li><a href="comunidad.html">COMUNIDAD </a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Somos TextilConnect </h1> <br>
+            <p>Facilitando procesos </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Third part  -->
+
+    <section class="campus">
+        <h1>Que necesitas?</h1> <br>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="Imagenes/tela-rosa.jpg"> 
+                <div class="layer">
+                    <h3>Tela Fucsia delgada</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="Imagenes/botones.jpg"> 
+                <div class="layer">
+                    <h3>Boton Negro </h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="Imagenes/hilo-delgado.jpg"> 
+                <div class="layer">
+                    <h3>Hilo Verde delgado</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+        <section class="campus2">
+
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="Imagenes/tela-verde.webp.crdownload"> 
+                <div class="layer">
+                    <h3>Tela Verde Gruesa</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="Imagenes/Tela-blanca.webp"> 
+                <div class="layer">
+                    <h3>Tela Blanca </h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="Imagenes/hilo.webp"> 
+                <div class="layer">
+                    <h3>Hilo Beige Grueso</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- fourth part -->
+
+    <section class="facilities">
+        <h1> Novedades y tendencias </h1>
+        <h3>Hecha un vistazo a lo nuevo o disfruta de las nuevas tendencias</h3> <br> <br>
+
+        <div class="row">
+
+        <div class="video1">
+            <iframe src="https://www.youtube.com/embed/j1GPnc34UKA" frameborder="0"
+                allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+                <h2>Chanel</h2>
+            <p>Colección inspirada en el glamour cinematográfico y la alegría de arreglarse</p>
+        </div>
+            <div class="video2">
+            <iframe src="https://www.youtube.com/embed/g9qWDkA_1aQ" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+                <h2>Schiaparelli</h2>
+            <p>"Icaro" La colección combina referencias mitológicas con elementos contemporáneos, explorando la tensión entre lo masculino y lo femenino, lo clásico y lo moderno. </p>
+        </div>
+
+            <div class="video3">
+            <iframe src="https://www.youtube.com/embed/wXB9MKPZytA" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+                <h2>Max Mara Resort 2026</h2>
+            <p>"Venere Vesuviana", es un homenaje a la moda italiana de los años 50 y a la energía napolitana.</p>
+        </div>
+            
+        </div>
+
+
+    </section>
+
+
+    <!-- part six -->
+
+    <section class="cta">
+        <!-- <h1>Inscribete Aqui!!</h1> -->
+
+        <form action ="https://www.elle.com/es/"> <a href="https://www.elle.com/es/" 
+            target="_blank"    class="hero-btn">Enterate de todo aqui</a></form>
+    </section>
+
+
+
+    <!-- Sección comentario -->
+    <div id="cuarto" class="seccion-comentario">
+        <div class="contenedor-comentarios">
+            <!-- Formulario de contacto -->
+            <form name="frm" method="post" action="">
+                <!-- Contenedor con borde y título para el formulario -->
+                <fieldset id="form">
+                    <legend>Deja un comentario</legend>
+                    
+                    <!-- Lista ordenada de campos del formulario -->
+                    <ol>
+                        <!-- Campo: Nombres -->
+                        <li>
+                            <label>Nombre:</label>
+                            <input type="text" name="name" size="30" required/>
+                        </li>
+
+                        <!-- Campo: Correo -->
+                        <li>
+                            <label>Correo:</label>
+                            <input type="text" name="gmail" size="30" required/>
+                        </li>
+
+                        <!-- Campo: Mensaje -->
+                        <li>
+                            <label>Tu comentario:</label>
+                            <input type="text" name="comentario" size="30" required/>
+                        </li>
+                    </ol>
+
+                    <!-- Botón para publicar-->
+                    <p>
+                        <input type="submit" class="submit" value="Publicar comentario" />
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+  
+    <!-- JavaScript for toogle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

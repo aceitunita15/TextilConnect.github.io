@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dignitas Infinita</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="contact-header">
+
+        <nav>
+            <a href="index.html"><img src="img/LOGO.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="product.html">PRODUCTOS</a></li>
+                    <li><a href="comunidad.html">COMUNIDAD </a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- <h1>Somos Dignitas Infinita</h1> -->
+    </section>
+
+    <!-- about us -->
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499488.9826096443!2d-77.31745596933682!3d-12.02577325824733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses-419!2spe!4v1720584698615!5m2!1ses-419!2spe"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section class="location">
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Our Location</h5>
+                        <span>Lima Lima Perú</span>
+                    </span>
+
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+51 904 920 390</h5>
+                        <span>Lunes a Domingo, 9 Am a 10 Pm</span>
+                    </span>
+
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>correo@gmail.com</h5>
+                        <span>correo a consultar</span>
+                    </span>
+
+                </div>
+
+            </div>
+            <div class="contact-col">
+
+                <form action="from-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Ingreasa tu Nombre">
+                    <input type="email" name="email" placeholder="Ingreasa tu Correo electronico">
+                    <input type="text" name="subject" placeholder="Ingreasa tu Consulta">
+                    <textarea rows="8" name="message" placeholder="Mensaje" required></textarea>
+                    <button type="Done!" class="hero-btn red-btn">Envia tu Mensaje!</button>
+                </form>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- footer-->
+
+    <section class="footer">
+        <h4>Siguenos en nuestras redes!!</h4>
+
+
+        <div class="icons">
+
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+
+        <p>MyTextil <i class="fa-regular fa-heart"></i></p>
+
+    </section>
+
+
+</body>
+
+</html>
